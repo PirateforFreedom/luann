@@ -34,15 +34,21 @@ You can also use Luann to deploy agents as a *service*. You can use a Luann serv
 
 ## Quickstart (Luann ADE Backend Server)  
 
+
+### From pypi
+1. Run `pip install luann`
+2. Run `luann server`
+3. Go to `localhost:8283` in the browser to view the developer portal
+4. then you can use api and client to develop your app
+
+
+### From source
 0. Clone the repo
 1. Run `python main.py configure`
 2. Run `python main.py server`
 3. Go to `localhost:8283` in the browser to view the developer portal
+4. then you can use api and client to develop your app 
 
-Once the server is running, you can use the [REST API] to connect to  `localhost:8283` (if you're running with the CLI) to create users, agents, and more. 
-
-## Quickstart (Luann ADE Frontend)
-  coming......
 
 
 ## Supported Type of Agents 
@@ -54,7 +60,6 @@ Luann is designed to Create various types of agent. The following type of agent 
 | openhands        |    ❌           |
 
 
-Luann is designed to Create various types of agent.
 
 ## Supported Endpoints & Backends
 Luann is designed to be model and provider agnostic. The following LLM and embedding endpoints are supported: 
@@ -65,19 +70,10 @@ Luann is designed to be model and provider agnostic. The following LLM and embed
 | Azure OpenAI        | ✅               | ✅                  |
 | Google AI (Gemini)  | ✅               | ❌                  |
 | Anthropic (Claude)  | ✅               | ❌                  |
-| Groq                | ✅ (alpha release) | ❌                |
-| Cohere API          | ✅               | ❌                  |
 | vLLM                | ✅               | ❌                  |
 | Ollama              | ✅               | ✅                  |
-| LM Studio           | ✅               | ❌                  |
-| koboldcpp           | ✅               | ❌                  |
-| oobabooga web UI    | ✅               | ❌                  |
-| llama.cpp           | ✅               | ❌                  |
-| HuggingFace TEI     | ❌               | ✅                  |
-| baichuan LLM        | ❌               | ❌                  |
-| qianwen LLM         | ❌               | ❌                  |
 
-When using Luann with open LLMs (such as those downloaded from HuggingFace), the performance of Luann will be highly dependent on the LLM's function calling ability ,Language understanding and reasoning skills.
+When using Luann with open LLMs (such as ollma and vllm ), the performance of Luann will be highly dependent on the LLM's function calling ability ,Language understanding and reasoning skills.
 
 ## Example
 <p align="center">
