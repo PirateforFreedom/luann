@@ -79,13 +79,12 @@ When using Luann with open LLMs (such as ollma and vllm ), the performance of Lu
  Coming
 ## TODO LIST
 
-- Add Luann client
-- Add other type agent( more complex agent  like  openhand, or simple functional agent)
-- test vectordb and other llms
+- add other type agent( more complex agent  like  openhand, or simple functional agent)
+- add other vectordb and other llms
 - add baichuan/qianwen etc LLM
 - add voice clone （tortoise-tts）
 - add Agent Evaluation
-- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas and part from crewai）（progess 70%）
+- add Production RAG Evaluation（Ragas https://github.com/explodinggradients/ragas and part from crewai）
 - add openai swarm
 - add LLM reranker subsystem（GPT4o reranker）
 - add automation workflow（not only chat but also do something）
@@ -97,13 +96,11 @@ When using Luann with open LLMs (such as ollma and vllm ), the performance of Lu
 
 ## Comments
 
-- This project is a Leisure time hobby，If you are interested in the project ,you can make a issue.
+- This project is a Leisure time hobby.
 - Our codebase for the Luann builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file),Thanks for open-sourcing! 
-- The difference of MemGPT(letta) and Luann is that Luann optimizes the entire memgpt code structure and creatively adds a complete memory module and knowledge base module and add SML.
-- The other main difference of MemGPT(letta) and Luann is that Luann can create various type  of agent,one architecture ,one pipline,one framework.
-- Documentation temporary reference [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file).Thanks letta
+- The difference of between MemGPT(letta) and Luann is that Luann optimizes the entire original memgpt code structure and propose new ,Small, lightweight, Agent Development Framework,which is  Easy to scale up of creating agents.Each has its own advantages
 - New ideas and new features will be added continuously,make everyone use very well
 - new version is coding ,please wait..
   
 ## Roadmap
-goal: EQ and IQ AGENT  or  a tool man(not only chat but also do something automately) ,or briage of  llm and application,finally to acting agent
+goal:EQ and IQ AGENT ,TOOL agent ,Scale up to create agent more easier
