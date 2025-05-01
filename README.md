@@ -16,23 +16,19 @@
 
 
 
-Luann makes it easy to build and deploy stateful LLM agents with support for: 
-* Long term memory/state managemet,short term memory,knowledge base long term memory
+
+
+
+Luann makes user easy to build and deploy  LLM agents with support for: 
+* Long term memory/state managemet,short term memory
 * Basic RAG workflow for knowledge base which created by external data sources (e.g. PDF files)
-* Intelligent switching knowledge base
 * Defining and calling custom tools，then help you do something(take action)
 * Changing personas settings and role-playing
-* Complete evauation subsystem for rag and whole agent system at Production Environment
-* Reasoning system(from phidata agent)
-* ADE UI
-* Create various types of agent(swe,ai scientist,etc..)
+* Create various types of agent(memgpt,swe,langchain agent,etc..)
 
 You can also use Luann to deploy agents as a *service*. You can use a Luann server to run a multi-user, multi-agent application on top of supported LLM providers.
 
 
-IF you have any questions about using Luann ,you can make a issues
-
-IF you clone this repo or are interesting ,please click  star ,which will make more people to see
 
 
 
