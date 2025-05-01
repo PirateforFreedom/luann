@@ -12,6 +12,10 @@
  <strong>Luann (fka TypeAgent) allows you to create many LLM based agent(Various types of agent,scale up),which has complete memory module (long-term memory, short-term memory),Tool Use module,RAG module etc.</strong>
 </div>
 
+<div align="center">
+
+ <strong>[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.pt-br.md)</strong>
+</div>
 
 
 
