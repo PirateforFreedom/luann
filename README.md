@@ -14,8 +14,8 @@
 
 <div align="center">
 
- <strong>[![zh-cn](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.pt-br.md)</strong>
-  <strong>[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.md)</strong>
+ <strong>[English](README.md), [简体中文](README.zh-cn.md)</strong>
+
 </div>
 
 
