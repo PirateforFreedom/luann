@@ -9,14 +9,9 @@
 
 <div align="center">
 
- <strong>Luann (fka TypeAgent) allows you to create a LLM agent,which has complete memory module (long-term memory, short-term memory) and knowledge module（Various knowledge bases）,eventually become an agent with both EQ and IQ.Another most important thing is that he can use various tools and become a real tool man AND Open Source.IT can also create various types of agents,IT also called LLM OS.</strong>
+ <strong>Luann (fka TypeAgent) allows you to create a LLM based agent,which has complete memory module (long-term memory, short-term memory),Tool Use module,RAG module.Luann also can create Various types of agent,which can create agent scale up</strong>
 </div>
 
-
-<div align="center">
-
- <strong>luann python client and luann docker will coming soon.....</strong>
-</div>
 
 
 
