@@ -40,11 +40,10 @@ Luann 让用户能够轻松构建和部署 LLM Agent，并支持:
 
 
 ### pypi 包 安装
-1. 运行 `pip install luann`
-2. 运行 `luann server`
-
-3.在浏览器中访问 `localhost:8283` 查看开发者 Restful API
-4. 然后你可以使用 restful api 和python Client来开发你的应用程序
+1. 运行 `pip install luann`。
+2. 运行 `luann server`。
+3.在浏览器中访问 `localhost:8283` 查看开发者 Restful API。
+4. 然后你可以使用 restful api 和python Client来开发你的应用程序。
 
 
 ### 开源源代码安装
