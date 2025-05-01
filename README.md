@@ -49,7 +49,7 @@ You can also use Luann to deploy agents as a *service*. You can use a Luann serv
 3. Go to `localhost:8283` in the browser to view the developer portal
 4. then you can use restful api and client to develop your app 
 
-
+The pip install of Luann defaults to using SQLite. If you have a PostgreSQL instance running on your own computer, you can still connect Luann (installed via pip) to PostgreSQL by setting the environment variable LUANN_PG_URI.
 
 ## Supported Type of Agents 
 Luann is designed to Create various types of agent. The following type of agent are supported: 
