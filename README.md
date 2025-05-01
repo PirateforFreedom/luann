@@ -32,14 +32,14 @@ You can also use Luann to deploy agents as a *service*. You can use a Luann serv
 
 
 
-## Quickstart (Luann ADE Backend Server)  
+## Quickstart
 
 
 ### From pypi
 1. Run `pip install luann`
 2. Run `luann server`
 3. Go to `localhost:8283` in the browser to view the developer portal
-4. then you can use api and client to develop your app
+4. then you can use restful api and client to develop your app
 
 
 ### From source
@@ -47,7 +47,7 @@ You can also use Luann to deploy agents as a *service*. You can use a Luann serv
 1. Run `python main.py configure`
 2. Run `python main.py server`
 3. Go to `localhost:8283` in the browser to view the developer portal
-4. then you can use api and client to develop your app 
+4. then you can use restful api and client to develop your app 
 
 
 
@@ -75,13 +75,8 @@ Luann is designed to be model and provider agnostic. The following LLM and embed
 
 When using Luann with open LLMs (such as ollma and vllm ), the performance of Luann will be highly dependent on the LLM's function calling ability ,Language understanding and reasoning skills.
 
-## Example
-<p align="center">
-  <img src="./assets/example12.png" alt="Luann logo"></a>
-</p>
-
-As you can see, typeagent will intelligently change the memory
-
+## Docs
+ Coming
 ## TODO LIST
 
 - Add Luann client
