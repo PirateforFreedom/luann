@@ -104,7 +104,7 @@ When using Luann with open LLMs (such as ollma and vllm ), the performance of Lu
 - Our codebase for the Luann builds heavily on [MemGPT codebase](https://github.com/cpacker/MemGPT?tab=readme-ov-file),Thanks for open-sourcing! 
 - The difference of between MemGPT(letta) and Luann is that Luann optimizes the entire original memgpt code structure and propose new ,Small, lightweight, Agent Development Framework,which is  Easy to scale up of creating agents.Each has its own advantages
 - New ideas and new features will be added continuously,make everyone use very well
-- new version is coding （frontend espesically）,please wait..
+- new version is coding （frontend espesically）,please wait.. ，recently ,working hard...
   
 ## Roadmap
 goal:EQ and IQ AGENT ,TOOL agent ,Scale up to create agent more easier
