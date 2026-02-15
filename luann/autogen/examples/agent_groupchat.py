@@ -3,7 +3,7 @@
 Based on the official AutoGen example here: https://github.com/microsoft/autogen/blob/main/notebook/agentchat_groupchat.ipynb
 
 Begin by doing:
-  pip install "pyautogen[teachable]"
+  pip install "ag2[teachable]"
   pip install pytypeagent
   or
   pip install -e . (inside the typeagent home directory)
@@ -68,7 +68,7 @@ elif LLM_BACKEND == "azure":
             "api_type": "azure",
             "api_key": azure_openai_api_key,
             "api_version": azure_openai_version,
-            # NOTE: on versions of pyautogen < 0.2.0, use "api_base"
+            # NOTE: on versions of ag2 < 0.2.0, use "api_base"
             # "api_base": azure_openai_endpoint,
             "base_url": azure_openai_endpoint,
         }
@@ -97,7 +97,7 @@ elif LLM_BACKEND == "local":
     config_list = [
         {
             "model": "NULL",  # not needed
-            # NOTE: on versions of pyautogen < 0.2.0 use "api_base", and also uncomment "api_type"
+            # NOTE: on versions of ag2 < 0.2.0 use "api_base", and also uncomment "api_type"
             # "api_base": "http://localhost:1234/v1",
             # "api_type": "open_ai",
             "base_url": "http://localhost:1234/v1",  # ex. "http://127.0.0.1:5001/v1" if you are using webui, "http://localhost:1234/v1/" if you are using LM Studio
