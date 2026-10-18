@@ -9,7 +9,7 @@
 
 <div align="center">
 
- <strong>Luann (fka TypeAgent) allows you to create many LLM based agent(Various types of agent,scale up),which has complete memory module (long-term memory, short-term memory),Tool Use module,RAG module etc.</strong>
+ <strong>Luann (fka TypeAgent) allows you to create many LLM based agent(Various types of agent,scale up),which has complete memory module (long-term memory, short-term memory),Tool Use module,RAG module etc.NO SKILL,</strong>
 </div>
 
 <div align="center">
@@ -105,6 +105,7 @@ When using Luann with open LLMs (such as ollma and vllm ), the performance of Lu
 - The difference of between MemGPT(letta) and Luann is that Luann optimizes the entire original memgpt code structure and propose new ,Small, lightweight, Agent Development Framework,which is  Easy to scale up of creating agents.Each has its own advantages
 - New ideas and new features will be added continuously,make everyone use very well
 - new version is coding （frontend espesically）,please wait.. ，recently ,working hard...
+- Lacks "skills" and other similar capabilities, such as those of a "coding agent."
   
 ## Roadmap
 goal:EQ and IQ AGENT ,TOOL agent ,Scale up to create agent more easier
